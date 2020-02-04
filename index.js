@@ -34,3 +34,8 @@ function removeLastKitten(){
   var x = kittens.pop()
   return x
 }
+
+function removeFirstKitten(){
+  var x = kittens.shift()
+  return x
+}
